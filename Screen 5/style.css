@@ -1,0 +1,93 @@
+body {
+    width: 90%;
+    background-color: black;
+    margin: auto;
+}
+
+.make-inline{
+    display: inline;
+}
+
+#main-header h3, p{
+    text-align: center;
+    color: white;
+}
+
+.list-seperator{
+    border-bottom: 1px white solid;
+}
+
+.button{
+    border: 1px white solid;
+    padding: 10px;
+}
+
+.button-first{
+    border: 1px white solid;
+    padding: 10px;
+    background-color: #B4B4B4;
+}
+
+#courses-container{
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+#main-section h1{
+    background: -webkit-linear-gradient(rgb(108, 108, 219), rgb(122, 9, 122));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#courses-container a{
+    color: white;
+    text-decoration: none;
+}
+
+#courses-container a::selection{
+    background-color: black;
+}
+
+#courses-container a:hover{
+    background-color: #D3D3D3;
+    
+}
+
+#courses-container p{
+    text-align: left;
+}
+
+#courses-container li{
+    margin-top: 20px;
+}
+
+#courses-info{
+    float: right;
+    width: 70%;
+    border: 1px white solid;
+    box-sizing: border-box;
+    background-color: #B4B4B4;
+}
+
+#courses-info p{
+    color: white;
+}
+
+#courses-info ul{
+    color: white;
+    list-style: none;
+}
+
+#courses-time{
+    float: right;
+    width: 70%;
+    border: 1px white solid;
+    box-sizing: border-box;
+}
+
+#courses-time li{
+    color: white;
+    list-style: none;
+}
