@@ -8,6 +8,11 @@ body {
     display: inline;
 }
 
+.material-icons{
+    color: white;
+    justify-content: space-around;
+}
+
 #main-header h3, p{
     text-align: center;
     color: white;
