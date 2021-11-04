@@ -1,0 +1,52 @@
+body {
+    width: 95%;
+    background-color: black;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main-content{
+    display: flex;
+    justify-items: space-around;
+}
+
+.gradient{
+  background: -webkit-linear-gradient(rgb(108, 108, 219), rgb(122, 9, 122));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#main-header{
+    color: white;
+    text-align: center;
+}
+
+#ajay-jade{
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    
+}
+
+.ajay-jade-desc{
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    left: 16px;
+}
+
+#nikhil-n{
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    
+}
+
+.nikhil-n-desc{
+    color: white;
+}
