@@ -1,21 +1,8 @@
-body{
-     background-color:black;
-     
-       
-}
-.screen{
-        width:800px;
-        height:700px;
-        background-color:rgba(0,0,0,0.7);
-        margin-top:5%;
-        margin-left:10%;
-        position:absolute;
-}
-.part2{
-   width:50%;
-   height:100%;
-   background-image:url(mydp1.jpg);
-   background-size:cover;
-   margin-left:10%
-   
+#main-header{
+ border: 1px solid black;
+ width: 80%;
+ margin: auto;
+ color: white;
+ font-family: 'Poppins', 'sans-serif';
+ background-image: url("images/6.jpg");
 }
